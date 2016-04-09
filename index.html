@@ -1,0 +1,115 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sesi's Script</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+    <div class="row text-center">
+      <div class="small-12 columns">
+        <h1>Sesi's Script</h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="small-8 small-centered columns">
+        <form>
+          <label class="row">
+            <h5>Preliminary</h5>
+            <input type="text" id="vmfolder" placeholder="VM's Folder ?" required>
+            <input type="text" id="tempfolder" placeholder="TEMP Folder?" required>
+            <input type="text" id="premfolder" placeholder="PREM Folder ?" required>
+          </label>
+          <label class="row">
+            <h5>VM 1</h5>
+            <input type="number" id="vmid1" placeholder="VM ID #1 ?" required>
+            <input type="text" id="vm1folder" placeholder="VM#1 Folder ?" required>
+            <input type="text" id="vmdk1" placeholder="VM#1 vmdk Folder ?" required>
+            <input type="text" id="vmx1" placeholder="VM#1 vmx Folder ?" required>
+          </label>
+          <label class="row">
+            <h5>VM 2</h5>
+            <input type="number" id="vmid2" placeholder="VM ID #2 ?">
+            <input type="text" id="vm2folder" placeholder="VM#2 Folder ?">
+            <input type="text" id="vmdk2" placeholder="VM#2 vmdk Folder ?">
+            <input type="text" id="vmx2" placeholder="VM#2 vmx Folder ?">
+          </label>
+          <label class="row">
+            <h5>VM 3</h5>
+            <input type="number" id="vmid3" placeholder="VM ID #3 ?">
+            <input type="text" id="vm3folder" placeholder="VM#3 Folder ?">
+            <input type="text" id="vmdk3" placeholder="VM#3 vmdk Folder ?">
+            <input type="text" id="vmx3" placeholder="VM#3 vmx Folder ?">
+          </label>
+          <label class="row">
+            <h5>VM 4</h5>
+            <input type="number" id="vmid4" placeholder="VM ID #4 ?">
+            <input type="text" id="vm4folder" placeholder="VM#4 Folder ?">
+            <input type="text" id="vmdk4" placeholder="VM#4 vmdk Folder ?">
+            <input type="text" id="vmx4" placeholder="VM#4 vmx Folder ?">
+          </label>
+          <label class="row">
+            <h5>VM 5</h5>
+            <input type="number" id="vmid5" placeholder="VM ID #5 ?">
+            <input type="text" id="vm5folder" placeholder="VM#5 Folder ?">
+            <input type="text" id="vmdk5" placeholder="VM#5 vmdk Folder ?">
+            <input type="text" id="vmx5" placeholder="VM#5 vmx Folder ?">
+          </label>
+          <label class="row">
+            <h5>VM 6</h5>
+            <input type="number" id="vmid6" placeholder="VM ID #6 ?">
+            <input type="text" id="vm6folder" placeholder="VM#6 Folder ?">
+            <input type="text" id="vmdk6" placeholder="VM#6 vmdk Folder ?">
+            <input type="text" id="vmx6" placeholder="VM#6 vmx Folder ?">
+          </label>
+          <label class="row">
+            <h5>VM 7</h5>
+            <input type="number" id="vmid7" placeholder="VM ID #7 ?">
+            <input type="text" id="vm7folder" placeholder="VM#7 Folder ?">
+            <input type="text" id="vmdk7" placeholder="VM#7 vmdk Folder ?">
+            <input type="text" id="vmx7" placeholder="VM#7 vmx Folder ?">
+          </label>
+          <label class="row">
+            <h5>VM 8</h5>
+            <input type="number" id="vmid8" placeholder="VM ID #8 ?">
+            <input type="text" id="vm8folder" placeholder="VM#8 Folder ?">
+            <input type="text" id="vmdk8" placeholder="VM#8 vmdk Folder ?">
+            <input type="text" id="vmx8" placeholder="VM#8 vmx Folder ?">
+          </label>
+          <label class="row">
+            <h5>VM 9</h5>
+            <input type="number" id="vmid9" placeholder="VM ID #9 ?">
+            <input type="text" id="vm9folder" placeholder="VM#9 Folder ?">
+            <input type="text" id="vmdk9" placeholder="VM#9 vmdk Folder ?">
+            <input type="text" id="vmx9" placeholder="VM#9 vmx Folder ?">
+          </label>
+          <label class="row">
+            <h5>VM 10</h5>
+            <input type="number" id="vmid10" placeholder="VM ID #10 ?">
+            <input type="text" id="vm10folder" placeholder="VM#10 Folder ?">
+            <input type="text" id="vmdk10" placeholder="VM#10 vmdk Folder ?">
+            <input type="text" id="vmx10" placeholder="VM#10 vmx Folder ?">
+          </label>
+          <button name="data" type="button" class="button" onClick="scriptCreator()">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="small-12 columns">
+        Output Script:
+        <textarea type="text" id="output" rows="25" contenteditable="true" readonly>
+        </textarea>
+      </div>
+    </div>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
